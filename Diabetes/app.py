@@ -33,7 +33,7 @@ def main():
     SkinThickness = st.number_input("Skin Thickness")
     Insulin = st.number_input("Insulin level")
     BMI = st.number_input("Body Max Index")
-    PDiabetesPedigreeFunction = st.number_input("Diabetes Pedigree Function")
+    DiabetesPedigreeFunction = st.number_input("Diabetes Pedigree Function")
     Age = st.number_input("Age")
 
     # Code for Prediction
