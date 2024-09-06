@@ -3,7 +3,12 @@ import pickle
 import streamlit as st
 
 # load the saved model
-loded_model = pickle.load(open('Diabetes/trained_model.sav', 'rb'))
+#loded_model = pickle.load(open('Diabetes/trained_model.sav', 'rb'))
+
+import os
+model_path = os.path.join(os.path.dirname(__file__), 'Diabetes/trained_model.sav')
+loaded_model = pickle.load(open(model_path, 'rb'))
+
 
 
 
