@@ -2,6 +2,7 @@ import numpy as np
 import pickle
 import streamlit as st
 import os
+from PIL import Image
 
 # load the saved model
 model_path = os.path.join(os.path.dirname(__file__), 'trained_model.sav')
