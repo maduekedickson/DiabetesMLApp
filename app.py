@@ -14,7 +14,7 @@ loaded_model = pickle.load(open(model_path, 'rb'))
 image = Image.open('./image.png')
 
 # Display the image
-st.image(image, use_column_width=True)
+st.image(image)
 
 
 
